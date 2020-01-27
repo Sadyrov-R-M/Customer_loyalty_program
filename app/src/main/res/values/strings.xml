@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Программа лояльности клиентов</string>
+    <string name="textViewAuthorization">Авторизация</string>
+    <string name="editTextLogin">Логин</string>
+    <string name="editTextPassword">Пароль</string>
+    <string name="buttonEnter">Войти</string>
+    <string name="textViewQuestion">Ещё не зарегистрированы?</string>
+    <string name="buttonToRegister">Зарегистрироваться</string>
+    <string name="textViewPoints">Баллы</string>
+    <string name="buttonGetCode">Получить код</string>
+    <string name="textViewHistory">История</string>
+    <string name="textViewRegistration">Регистрация</string>
+    <string name="editTextSurname">Фамилия</string>
+    <string name="editTextName">Имя</string>
+    <string name="editTextPatronymic">Отчество</string>
+    <string name="textViewCode">****</string>
+    <string name="textViewYourCode">Ваш код</string>
+    <string name="Offers">Предложения</string>
+    <string name="textViewWelcomeMsg">Добро пожаловать!</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="ru.DenisPavelRafael.CustomerLoyaltyProgram.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:paddingBottom="10sp"
+            android:paddingTop="10sp"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <TextView
+            android:id="@+id/textViewRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewRegistration"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextSurname"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:hint="@string/editTextSurname"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/fileds"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:hint="@string/editTextName"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/fileds"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPatronymic"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:hint="@string/editTextPatronymic"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/fileds"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:hint="@string/editTextLogin"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/fileds"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"  />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:hint="@string/editTextPassword"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/fileds"
+            android:padding="15sp"
+            android:textSize="15sp"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonToRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:background="@drawable/button"
+            android:text="@string/buttonToRegister"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
